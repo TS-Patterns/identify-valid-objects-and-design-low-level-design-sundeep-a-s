@@ -1,0 +1,25 @@
+ExportTool
+
+patients.csv
+	MRN,Name,Age,Email,PhoneNumber,City,State,Country
+Patients.xml
+		<Patient MRN="" ...................> </Patient>
+
+Validation
+	MRN-> starst with "MRN"
+	Name-> Required
+	Age->  >0 <100
+	Email-> format internet Mail Address
+	Phonenumber -> Country Specific
+	Country -> Required
+
+Log Validation Error Messages to log file -> LineNumber
+
+Better Name Convention -> "Role"
+
+Resposibilities / Functionality
+
+1.Read Patient Details from CSV 
+2.Validate Patient Details
+3.Write Validation Messages to Log File
+4.Write Valid Patient Objects to XML File
